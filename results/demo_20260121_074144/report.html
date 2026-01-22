@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <title>Relatório de Run - demo_20260121_074144</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f2f2f2; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    img { max-width: 100%; border: 1px solid #ddd; padding: 6px; background: #fff; }
+    code { background: #f7f7f7; padding: 2px 4px; }
+  </style>
+</head>
+<body>
+  <h1>Relatório do Run: demo_20260121_074144</h1>
+
+  <p><b>Fonte:</b> <code>http_metrics.csv</code> (TSV sem cabeçalho: ts, endpoint, status, lat_ms, ok)</p>
+  <p><b>FIRST_FAILURE (auto):</b> <code>2026-01-21T07:43:35+00:00 endpoint=/secure-data status=503 lat_ms=8</code></p>
+
+  <h2>Métricas por endpoint</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Endpoint</th><th>Count</th><th>OK (%)</th><th>Max lat (ms)</th><th>P95 lat (ms)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>/ping</td><td>154</td><td>100.0</td><td>691</td><td>254</td></tr>
+<tr><td>/secure-data</td><td>153</td><td>87.6</td><td>1084</td><td>417</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Gráficos</h2>
+  <div class="grid">
+    <div>
+      <h3>OK% por endpoint</h3>
+      <img src="ok_rate.png" alt="OK rate">
+    </div>
+    <div>
+      <h3>Latência (p95 vs max)</h3>
+      <img src="latency.png" alt="Latency">
+    </div>
+  </div>
+
+  <div style="margin-top:16px;">
+    <h3>Timeline</h3>
+    <img src="timeline.png" alt="Timeline">
+  </div>
+
+  <h2>Eventos (agregados)</h2>
+  <p style="white-space: pre-wrap;">[2026-01-21T07:41:47+00:00] INCIDENT_START type=dos<br>[2026-01-21T07:43:09+00:00] INCIDENT_END type=dos<br>[2026-01-21T07:43:25+00:00] INCIDENT_START type=kill_api<br>[2026-01-21T07:43:30+00:00] INCIDENT_END type=kill_api<br>[2026-01-21T07:43:32+00:00] INCIDENT_START type=netfail<br>[2026-01-21T07:43:35+00:00] FIRST_FAILURE ping_ok=1 secure_ok=0<br>[2026-01-21T07:43:54+00:00] INCIDENT_END type=netfail</p>
+
+</body>
+</html>

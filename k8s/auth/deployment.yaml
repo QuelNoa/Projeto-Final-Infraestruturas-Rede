@@ -1,0 +1,79 @@
+# k8s/auth/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth
+  namespace: resilience
+  labels:
+    app: auth
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: auth
+  template:
+    metadata:
+      labels:
+        app: auth
+        tier: app
+    spec:
+      # SecurityContext ao nível do POD
+      securityContext:
+        runAsUser: 1000
+        runAsGroup: 1000
+        fsGroup: 1000
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: auth
+          image: rsl/auth:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
+
+          # Auth a servir HTTPS no próprio pod (como tinhas)
+          command: ["uvicorn"]
+          args:
+            - "src.main:app"
+            - "--host"
+            - "0.0.0.0"
+            - "--port"
+            - "8000"
+            - "--ssl-certfile"
+            - "/etc/auth-tls/tls.crt"
+            - "--ssl-keyfile"
+            - "/etc/auth-tls/tls.key"
+
+          # SecurityContext ao nível do CONTENTOR
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop:
+                - ALL
+
+          volumeMounts:
+            - name: tmp
+              mountPath: /tmp
+            - name: auth-tls
+              mountPath: /etc/auth-tls
+              readOnly: true
+
+          # FIX: como o auth está em HTTPS, a probe deve ser HTTPS
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTPS
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 2
+            failureThreshold: 3
+
+      volumes:
+        - name: tmp
+          emptyDir: {}
+        - name: auth-tls
+          secret:
+            secretName: auth-internal-tls-secret

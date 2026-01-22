@@ -1,0 +1,30 @@
+NAME                        READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                 SELECTOR
+deployment.apps/api         10/10   10           10          13h   api          rsl/api:latest         app=api
+deployment.apps/auth        3/3     3            3           13h   auth         rsl/auth:latest        app=auth
+deployment.apps/dashboard   3/3     3            3           13h   dashboard    rsl/dashboard:latest   app=dashboard
+
+NAME                TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE   SELECTOR
+service/api         ClusterIP   10.43.195.207   <none>        80/TCP     13h   app=api
+service/auth        ClusterIP   10.43.39.55     <none>        8000/TCP   13h   app=auth
+service/dashboard   ClusterIP   10.43.8.193     <none>        80/TCP     13h   app=dashboard
+
+NAME                             READY   STATUS    RESTARTS   AGE     IP           NODE                     NOMINATED NODE   READINESS GATES
+pod/api-66c8cd86fc-8bnps         1/1     Running   0          2m1s    10.42.1.56   k3d-resilient-agent-1    <none>           <none>
+pod/api-66c8cd86fc-cnrjj         1/1     Running   0          2m1s    10.42.2.47   k3d-resilient-agent-2    <none>           <none>
+pod/api-66c8cd86fc-crxwj         1/1     Running   0          2m1s    10.42.0.68   k3d-resilient-agent-0    <none>           <none>
+pod/api-66c8cd86fc-fnqhm         1/1     Running   0          90m     10.42.2.41   k3d-resilient-agent-2    <none>           <none>
+pod/api-66c8cd86fc-h59cj         1/1     Running   0          2m16s   10.42.0.67   k3d-resilient-agent-0    <none>           <none>
+pod/api-66c8cd86fc-jb4m9         1/1     Running   0          2m1s    10.42.2.48   k3d-resilient-agent-2    <none>           <none>
+pod/api-66c8cd86fc-nbcxd         1/1     Running   0          156m    10.42.3.33   k3d-resilient-server-0   <none>           <none>
+pod/api-66c8cd86fc-r5tcl         1/1     Running   0          78s     10.42.0.69   k3d-resilient-agent-0    <none>           <none>
+pod/api-66c8cd86fc-rz55t         1/1     Running   0          4h44m   10.42.3.26   k3d-resilient-server-0   <none>           <none>
+pod/api-66c8cd86fc-sltxw         1/1     Running   0          2m16s   10.42.1.55   k3d-resilient-agent-1    <none>           <none>
+pod/auth-86698fcd5f-2wf6d        1/1     Running   0          13h     10.42.0.20   k3d-resilient-agent-0    <none>           <none>
+pod/auth-86698fcd5f-9nprr        1/1     Running   0          13h     10.42.1.22   k3d-resilient-agent-1    <none>           <none>
+pod/auth-86698fcd5f-9shj4        1/1     Running   0          13h     10.42.3.17   k3d-resilient-server-0   <none>           <none>
+pod/dashboard-849bb8bf57-nkzz5   1/1     Running   0          13h     10.42.2.18   k3d-resilient-agent-2    <none>           <none>
+pod/dashboard-849bb8bf57-qf7t4   1/1     Running   0          13h     10.42.3.18   k3d-resilient-server-0   <none>           <none>
+pod/dashboard-849bb8bf57-r9cr7   1/1     Running   0          13h     10.42.1.21   k3d-resilient-agent-1    <none>           <none>
+
+NAME                                          REFERENCE        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/api-hpa   Deployment/api   cpu: 2%/60%   3         10        10         13h

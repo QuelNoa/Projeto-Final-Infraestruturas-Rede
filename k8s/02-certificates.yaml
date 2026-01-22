@@ -1,0 +1,29 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: resilience-ingress-cert
+  namespace: resilience
+spec:
+  secretName: resilience-ingress-tls
+  dnsNames:
+    - api.resilience.local
+    - auth.resilience.local
+    - dash.resilience.local
+    - grafana.resilience.local
+  issuerRef:
+    name: resilience-ca-issuer
+    kind: Issuer
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: auth-internal-tls
+  namespace: resilience
+spec:
+  secretName: auth-internal-tls-secret
+  dnsNames:
+    - auth.resilience.svc.cluster.local
+    - auth
+  issuerRef:
+    name: resilience-ca-issuer
+    kind: Issuer

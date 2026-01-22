@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"networking.k8s.io/v1","kind":"NetworkPolicy","metadata":{"annotations":{},"creationTimestamp":"2026-01-21T06:14:58Z","generation":1,"name":"allow-api-to-auth","namespace":"resilience","resourceVersion":"50236","uid":"5c886190-5f55-4932-917c-ff05e7913a47"},"spec":{"egress":[{"ports":[{"port":8000,"protocol":"TCP"}],"to":[{"podSelector":{"matchLabels":{"app":"auth"}}}]}],"podSelector":{"matchLabels":{"app":"api"}},"policyTypes":["Egress"]}}
+  creationTimestamp: "2026-01-21T07:30:13Z"
+  generation: 1
+  name: allow-api-to-auth
+  namespace: resilience
+  resourceVersion: "54587"
+  uid: c449f9bb-08c8-4a46-861c-63e22e1763dd
+spec:
+  egress:
+  - ports:
+    - port: 8000
+      protocol: TCP
+    to:
+    - podSelector:
+        matchLabels:
+          app: auth
+  podSelector:
+    matchLabels:
+      app: api
+  policyTypes:
+  - Egress

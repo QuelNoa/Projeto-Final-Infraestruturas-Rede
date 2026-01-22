@@ -1,0 +1,112 @@
+LAST SEEN   TYPE      REASON              OBJECT                            MESSAGE
+22m         Normal    Scheduled           pod/api-66c8cd86fc-p2lxs          Successfully assigned resilience/api-66c8cd86fc-p2lxs to k3d-resilient-agent-1
+17m         Normal    Scheduled           pod/api-66c8cd86fc-v9pst          Successfully assigned resilience/api-66c8cd86fc-v9pst to k3d-resilient-agent-2
+2m25s       Normal    Scheduled           pod/api-66c8cd86fc-h9j4j          Successfully assigned resilience/api-66c8cd86fc-h9j4j to k3d-resilient-agent-0
+9m32s       Normal    Scheduled           pod/api-66c8cd86fc-k9gcl          Successfully assigned resilience/api-66c8cd86fc-k9gcl to k3d-resilient-agent-0
+9m15s       Normal    Scheduled           pod/api-66c8cd86fc-98rzv          Successfully assigned resilience/api-66c8cd86fc-98rzv to k3d-resilient-agent-1
+9m15s       Normal    Scheduled           pod/api-66c8cd86fc-4krhb          Successfully assigned resilience/api-66c8cd86fc-4krhb to k3d-resilient-agent-2
+9m15s       Normal    Scheduled           pod/api-66c8cd86fc-l9hdr          Successfully assigned resilience/api-66c8cd86fc-l9hdr to k3d-resilient-agent-1
+8m31s       Normal    Scheduled           pod/api-66c8cd86fc-w8j8l          Successfully assigned resilience/api-66c8cd86fc-w8j8l to k3d-resilient-agent-2
+23m         Normal    Scheduled           pod/api-66c8cd86fc-jdbqn          Successfully assigned resilience/api-66c8cd86fc-jdbqn to k3d-resilient-agent-0
+9m32s       Normal    Scheduled           pod/api-66c8cd86fc-64nvv          Successfully assigned resilience/api-66c8cd86fc-64nvv to k3d-resilient-agent-2
+9m15s       Normal    Scheduled           pod/api-66c8cd86fc-4mkmh          Successfully assigned resilience/api-66c8cd86fc-4mkmh to k3d-resilient-agent-0
+22m         Normal    Scheduled           pod/api-66c8cd86fc-86pxh          Successfully assigned resilience/api-66c8cd86fc-86pxh to k3d-resilient-agent-2
+22m         Normal    Scheduled           pod/api-66c8cd86fc-2jjn5          Successfully assigned resilience/api-66c8cd86fc-2jjn5 to k3d-resilient-agent-1
+22m         Normal    Scheduled           pod/api-66c8cd86fc-wlwcm          Successfully assigned resilience/api-66c8cd86fc-wlwcm to k3d-resilient-agent-0
+22m         Normal    Scheduled           pod/api-66c8cd86fc-rcm5b          Successfully assigned resilience/api-66c8cd86fc-rcm5b to k3d-resilient-agent-0
+22m         Normal    Scheduled           pod/api-66c8cd86fc-qsqqm          Successfully assigned resilience/api-66c8cd86fc-qsqqm to k3d-resilient-agent-2
+9m32s       Normal    Scheduled           pod/api-66c8cd86fc-ntgn9          Successfully assigned resilience/api-66c8cd86fc-ntgn9 to k3d-resilient-agent-0
+22m         Normal    Scheduled           pod/api-66c8cd86fc-rfqpd          Successfully assigned resilience/api-66c8cd86fc-rfqpd to k3d-resilient-agent-1
+23m         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-jdbqn
+23m         Normal    SuccessfulRescale   horizontalpodautoscaler/api-hpa   New size: 4; reason: cpu resource utilization (percentage of request) above target
+23m         Normal    Pulled              pod/api-66c8cd86fc-jdbqn          Container image "rsl/api:latest" already present on machine
+23m         Normal    ScalingReplicaSet   deployment/api                    Scaled up replica set api-66c8cd86fc to 4 from 3
+23m         Normal    Started             pod/api-66c8cd86fc-jdbqn          Started container api
+23m         Normal    Created             pod/api-66c8cd86fc-jdbqn          Created container api
+22m         Normal    ScalingReplicaSet   deployment/api                    Scaled up replica set api-66c8cd86fc to 8 from 4
+22m         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-2jjn5
+22m         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-wlwcm
+22m         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-rfqpd
+22m         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-qsqqm
+22m         Normal    SuccessfulRescale   horizontalpodautoscaler/api-hpa   New size: 8; reason: cpu resource utilization (percentage of request) above target
+22m         Normal    Created             pod/api-66c8cd86fc-wlwcm          Created container api
+22m         Normal    Pulled              pod/api-66c8cd86fc-rfqpd          Container image "rsl/api:latest" already present on machine
+22m         Normal    Pulled              pod/api-66c8cd86fc-qsqqm          Container image "rsl/api:latest" already present on machine
+22m         Normal    Pulled              pod/api-66c8cd86fc-2jjn5          Container image "rsl/api:latest" already present on machine
+22m         Normal    Created             pod/api-66c8cd86fc-2jjn5          Created container api
+22m         Normal    Started             pod/api-66c8cd86fc-2jjn5          Started container api
+22m         Normal    Created             pod/api-66c8cd86fc-qsqqm          Created container api
+22m         Normal    Started             pod/api-66c8cd86fc-qsqqm          Started container api
+22m         Normal    Started             pod/api-66c8cd86fc-wlwcm          Started container api
+22m         Normal    Pulled              pod/api-66c8cd86fc-wlwcm          Container image "rsl/api:latest" already present on machine
+22m         Normal    Started             pod/api-66c8cd86fc-rfqpd          Started container api
+22m         Normal    Created             pod/api-66c8cd86fc-rfqpd          Created container api
+22m         Warning   Unhealthy           pod/api-66c8cd86fc-rz55t          Readiness probe failed: Get "http://10.42.3.26:8000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+22m         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-86pxh
+22m         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-rcm5b
+22m         Normal    ScalingReplicaSet   deployment/api                    Scaled up replica set api-66c8cd86fc to 10 from 8
+22m         Normal    Started             pod/api-66c8cd86fc-rcm5b          Started container api
+22m         Normal    Created             pod/api-66c8cd86fc-rcm5b          Created container api
+22m         Normal    Started             pod/api-66c8cd86fc-86pxh          Started container api
+22m         Normal    Pulled              pod/api-66c8cd86fc-rcm5b          Container image "rsl/api:latest" already present on machine
+22m         Normal    Pulled              pod/api-66c8cd86fc-86pxh          Container image "rsl/api:latest" already present on machine
+22m         Normal    Created             pod/api-66c8cd86fc-86pxh          Created container api
+22m         Normal    Pulled              pod/api-66c8cd86fc-p2lxs          Container image "rsl/api:latest" already present on machine
+22m         Normal    Created             pod/api-66c8cd86fc-p2lxs          Created container api
+22m         Normal    Killing             pod/api-66c8cd86fc-2jjn5          Stopping container api
+22m         Normal    Started             pod/api-66c8cd86fc-p2lxs          Started container api
+22m         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-p2lxs
+17m         Normal    Killing             pod/api-66c8cd86fc-86pxh          Stopping container api
+17m         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-v9pst
+17m         Normal    Started             pod/api-66c8cd86fc-v9pst          Started container api
+17m         Normal    Created             pod/api-66c8cd86fc-v9pst          Created container api
+17m         Normal    Pulled              pod/api-66c8cd86fc-v9pst          Container image "rsl/api:latest" already present on machine
+11m         Normal    SuccessfulDelete    replicaset/api-66c8cd86fc         Deleted pod: api-66c8cd86fc-jdbqn
+11m         Normal    SuccessfulDelete    replicaset/api-66c8cd86fc         Deleted pod: api-66c8cd86fc-rcm5b
+11m         Normal    Killing             pod/api-66c8cd86fc-qsqqm          Stopping container api
+11m         Normal    Killing             pod/api-66c8cd86fc-jdbqn          Stopping container api
+11m         Normal    Killing             pod/api-66c8cd86fc-fnqhm          Stopping container api
+11m         Normal    SuccessfulDelete    replicaset/api-66c8cd86fc         Deleted pod: api-66c8cd86fc-wlwcm
+11m         Normal    Killing             pod/api-66c8cd86fc-rfqpd          Stopping container api
+11m         Normal    Killing             pod/api-66c8cd86fc-rcm5b          Stopping container api
+11m         Normal    SuccessfulDelete    replicaset/api-66c8cd86fc         Deleted pod: api-66c8cd86fc-rfqpd
+11m         Normal    ScalingReplicaSet   deployment/api                    Scaled down replica set api-66c8cd86fc to 3 from 10
+11m         Normal    SuccessfulDelete    replicaset/api-66c8cd86fc         Deleted pod: api-66c8cd86fc-fnqhm
+11m         Normal    Killing             pod/api-66c8cd86fc-wlwcm          Stopping container api
+11m         Normal    Killing             pod/api-66c8cd86fc-v9pst          Stopping container api
+11m         Normal    SuccessfulDelete    replicaset/api-66c8cd86fc         Deleted pod: api-66c8cd86fc-v9pst
+11m         Normal    SuccessfulRescale   horizontalpodautoscaler/api-hpa   New size: 3; reason: All metrics below target
+9m33s       Normal    SuccessfulRescale   horizontalpodautoscaler/api-hpa   New size: 6; reason: cpu resource utilization (percentage of request) above target
+9m33s       Normal    ScalingReplicaSet   deployment/api                    Scaled up replica set api-66c8cd86fc to 6 from 3
+9m32s       Normal    Started             pod/api-66c8cd86fc-k9gcl          Started container api
+9m32s       Normal    Created             pod/api-66c8cd86fc-ntgn9          Created container api
+9m32s       Normal    Pulled              pod/api-66c8cd86fc-k9gcl          Container image "rsl/api:latest" already present on machine
+9m32s       Normal    Created             pod/api-66c8cd86fc-64nvv          Created container api
+9m32s       Normal    Started             pod/api-66c8cd86fc-64nvv          Started container api
+9m32s       Normal    Pulled              pod/api-66c8cd86fc-ntgn9          Container image "rsl/api:latest" already present on machine
+9m32s       Normal    Started             pod/api-66c8cd86fc-ntgn9          Started container api
+9m32s       Normal    Pulled              pod/api-66c8cd86fc-64nvv          Container image "rsl/api:latest" already present on machine
+9m32s       Normal    Created             pod/api-66c8cd86fc-k9gcl          Created container api
+9m16s       Normal    Pulled              pod/api-66c8cd86fc-98rzv          Container image "rsl/api:latest" already present on machine
+9m16s       Normal    Pulled              pod/api-66c8cd86fc-4krhb          Container image "rsl/api:latest" already present on machine
+9m16s       Normal    Pulled              pod/api-66c8cd86fc-l9hdr          Container image "rsl/api:latest" already present on machine
+9m16s       Normal    Pulled              pod/api-66c8cd86fc-4mkmh          Container image "rsl/api:latest" already present on machine
+9m16s       Normal    ScalingReplicaSet   deployment/api                    Scaled up replica set api-66c8cd86fc to 10 from 6
+9m16s       Normal    SuccessfulRescale   horizontalpodautoscaler/api-hpa   New size: 10; reason: cpu resource utilization (percentage of request) above target
+9m15s       Normal    Started             pod/api-66c8cd86fc-4krhb          Started container api
+9m15s       Normal    Started             pod/api-66c8cd86fc-l9hdr          Started container api
+9m15s       Normal    Created             pod/api-66c8cd86fc-4krhb          Created container api
+9m15s       Normal    Created             pod/api-66c8cd86fc-l9hdr          Created container api
+9m15s       Normal    Created             pod/api-66c8cd86fc-98rzv          Created container api
+9m15s       Normal    Created             pod/api-66c8cd86fc-4mkmh          Created container api
+9m15s       Normal    Started             pod/api-66c8cd86fc-4mkmh          Started container api
+9m15s       Normal    Started             pod/api-66c8cd86fc-98rzv          Started container api
+8m31s       Normal    Created             pod/api-66c8cd86fc-w8j8l          Created container api
+8m31s       Normal    Pulled              pod/api-66c8cd86fc-w8j8l          Container image "rsl/api:latest" already present on machine
+8m31s       Normal    Killing             pod/api-66c8cd86fc-4krhb          Stopping container api
+8m30s       Normal    Started             pod/api-66c8cd86fc-w8j8l          Started container api
+2m25s       Normal    Created             pod/api-66c8cd86fc-h9j4j          Created container api
+2m25s       Normal    Killing             pod/api-66c8cd86fc-4mkmh          Stopping container api
+2m25s       Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         (combined from similar events): Created pod: api-66c8cd86fc-h9j4j
+2m25s       Normal    Pulled              pod/api-66c8cd86fc-h9j4j          Container image "rsl/api:latest" already present on machine
+2m25s       Normal    Started             pod/api-66c8cd86fc-h9j4j          Started container api

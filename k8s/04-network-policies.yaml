@@ -1,0 +1,88 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app-default-deny
+  namespace: resilience
+spec:
+  podSelector:
+    matchLabels:
+      tier: app
+  policyTypes: ["Ingress", "Egress"]
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app-allow-dns
+  namespace: resilience
+spec:
+  podSelector:
+    matchLabels:
+      tier: app
+  policyTypes: ["Egress"]
+  egress:
+    - to:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: kube-system
+          podSelector:
+            matchLabels:
+              k8s-app: kube-dns
+      ports:
+        - protocol: UDP
+          port: 53
+        - protocol: TCP
+          port: 53
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app-allow-from-ingress-nginx
+  namespace: resilience
+spec:
+  podSelector:
+    matchLabels:
+      tier: app
+  policyTypes: ["Ingress"]
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: ingress-nginx
+          podSelector:
+            matchLabels:
+              app.kubernetes.io/component: controller
+      ports:
+        - protocol: TCP
+          port: 8000
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-api-to-auth
+  namespace: resilience
+spec:
+  podSelector:
+    matchLabels:
+      app: api
+  policyTypes: ["Egress"]
+  egress:
+    - to:
+        - podSelector:
+            matchLabels:
+              app: auth
+      ports:
+        - protocol: TCP
+          port: 8000
+---
+# Esta policy é aplicada só durante o incidente "netfail" para BLOQUEAR api->auth.
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: deny-api-to-auth-temporary
+  namespace: resilience
+spec:
+  podSelector:
+    matchLabels:
+      app: api
+  policyTypes: ["Egress"]
+  egress: []   # deny total (para o selector)

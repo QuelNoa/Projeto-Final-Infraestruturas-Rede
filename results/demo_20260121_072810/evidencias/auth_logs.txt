@@ -1,0 +1,900 @@
+2026-01-21T07:28:34.151774335Z {"ts": 1768980514.1514804, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:34.152087757Z INFO:     10.42.0.1:59904 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:35.068350107Z {"ts": 1768980515.0679946, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:35.068667178Z INFO:     10.42.3.26:42870 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:35.660687233Z {"ts": 1768980515.6603172, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:35.660766731Z INFO:     10.42.3.33:45712 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:35.945939518Z {"ts": 1768980515.9457016, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:35.946062224Z INFO:     10.42.3.26:42888 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:36.017008259Z {"ts": 1768980516.0167954, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:36.017322925Z INFO:     10.42.3.26:42894 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:36.866692110Z {"ts": 1768980516.8663437, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:36.866759102Z INFO:     10.42.3.26:42902 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:36.933632030Z {"ts": 1768980516.9333725, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:36.934004509Z INFO:     10.42.2.41:36198 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:37.163271212Z {"ts": 1768980517.1629558, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 2}
+2026-01-21T07:28:37.163492409Z INFO:     10.42.2.41:36208 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:37.573929357Z {"ts": 1768980517.5736046, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:37.574025249Z INFO:     10.42.3.33:45734 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:38.058386833Z {"ts": 1768980518.058158, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:38.058537393Z INFO:     10.42.3.26:42930 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:38.253521146Z {"ts": 1768980518.2530568, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:38.254680552Z INFO:     10.42.3.26:42944 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:38.259584469Z {"ts": 1768980518.259348, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:38.259738974Z INFO:     10.42.2.41:36230 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:39.150719333Z {"ts": 1768980519.1503549, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:39.150826483Z INFO:     10.42.3.33:45738 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:39.374398758Z {"ts": 1768980519.374036, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:39.378025330Z INFO:     10.42.3.26:43008 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:39.908862274Z {"ts": 1768980519.9084501, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:39.909006978Z INFO:     10.42.2.41:36250 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:40.151615879Z {"ts": 1768980520.1514192, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:40.151666546Z INFO:     10.42.0.1:59906 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:40.616404749Z {"ts": 1768980520.6161654, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:40.616560465Z INFO:     10.42.3.33:45768 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:42.000668889Z {"ts": 1768980522.00045, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:42.000770363Z INFO:     10.42.2.41:36286 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:42.151745860Z {"ts": 1768980522.1515205, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:42.151878536Z INFO:     10.42.0.1:59918 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:42.233982841Z {"ts": 1768980522.2335446, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:42.234063829Z INFO:     10.42.3.33:45792 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:42.948656684Z {"ts": 1768980522.9483557, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:42.948753591Z INFO:     10.42.3.33:45806 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:43.555034962Z {"ts": 1768980523.5547225, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:43.555421635Z INFO:     10.42.3.26:43854 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:43.623736230Z {"ts": 1768980523.6234815, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:43.623869576Z INFO:     10.42.2.41:60458 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:44.320365584Z {"ts": 1768980524.3202095, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:44.320679516Z INFO:     10.42.3.26:43866 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:44.634541949Z {"ts": 1768980524.6343024, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:44.634688082Z INFO:     10.42.3.26:43868 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:45.007979697Z {"ts": 1768980525.0076642, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:45.008091866Z INFO:     10.42.2.41:60486 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:45.119921883Z {"ts": 1768980525.1195323, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:45.120032572Z INFO:     10.42.3.33:43018 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:46.151306787Z {"ts": 1768980526.1510715, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:46.151413279Z INFO:     10.42.0.1:42638 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:46.298275883Z {"ts": 1768980526.298046, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:46.298338253Z INFO:     10.42.2.41:60492 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:46.921344162Z {"ts": 1768980526.9210496, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:46.921837642Z INFO:     10.42.2.41:60496 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:51.030288295Z {"ts": 1768980531.030035, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:51.030372820Z INFO:     10.42.3.26:43968 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:51.127070012Z {"ts": 1768980531.1268456, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:51.127283573Z INFO:     10.42.3.33:43138 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:51.388441320Z {"ts": 1768980531.388217, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:51.388619561Z INFO:     10.42.3.33:43152 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:51.773407936Z {"ts": 1768980531.7730572, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:51.773817230Z INFO:     10.42.0.70:50412 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:52.154286982Z {"ts": 1768980532.1539176, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:52.154352975Z {"ts": 1768980532.1540544, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:52.154361783Z INFO:     10.42.0.1:42650 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:52.154364405Z INFO:     10.42.0.1:42648 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:53.548591585Z {"ts": 1768980533.5467556, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:53.548674367Z INFO:     10.42.3.26:44012 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:55.020181779Z {"ts": 1768980535.0199964, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:55.020568790Z INFO:     10.42.3.26:44038 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:56.008397412Z {"ts": 1768980536.008166, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:56.008481283Z INFO:     10.42.3.33:55758 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:56.413373429Z {"ts": 1768980536.4130068, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:56.413444782Z INFO:     10.42.3.26:49444 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:57.551176237Z {"ts": 1768980537.5508475, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:57.551334409Z INFO:     10.42.3.26:49452 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:57.665258431Z {"ts": 1768980537.6649814, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:57.665307657Z INFO:     10.42.2.41:41464 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:59.152582863Z {"ts": 1768980539.152207, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:59.152635665Z INFO:     10.42.2.41:41480 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:59.438918754Z {"ts": 1768980539.4386826, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:59.439129160Z INFO:     10.42.0.70:43862 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:59.637181884Z {"ts": 1768980539.6368177, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:59.637291358Z INFO:     10.42.0.1:48164 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:00.257159992Z {"ts": 1768980540.2567155, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:00.257356808Z INFO:     10.42.3.26:49492 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:00.798698230Z {"ts": 1768980540.7985218, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:00.798992559Z INFO:     10.42.2.41:41490 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:01.955989525Z {"ts": 1768980541.9558003, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:01.956204911Z INFO:     10.42.3.33:55794 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:02.515656883Z {"ts": 1768980542.5154355, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:02.516560630Z INFO:     10.42.0.70:43880 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:03.638396242Z {"ts": 1768980543.638096, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:03.638872129Z INFO:     10.42.0.1:48168 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:04.173673253Z {"ts": 1768980544.1733875, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:04.173974762Z INFO:     10.42.3.33:55808 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:04.930203201Z {"ts": 1768980544.92999, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:04.930256399Z INFO:     10.42.3.26:49514 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:05.215333177Z {"ts": 1768980545.2151349, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:05.215561259Z INFO:     10.42.3.26:49528 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:05.638270550Z {"ts": 1768980545.6379757, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:05.638694342Z INFO:     10.42.0.1:38244 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:06.819209011Z {"ts": 1768980546.8188715, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:06.819387565Z INFO:     10.42.3.26:51014 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:06.891721442Z {"ts": 1768980546.8914251, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:06.892113092Z INFO:     10.42.0.70:44894 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:07.820638173Z {"ts": 1768980547.8204162, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:07.820853265Z INFO:     10.42.2.41:53462 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:08.540835377Z {"ts": 1768980548.5405788, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:08.540930277Z INFO:     10.42.3.26:51030 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:08.916002131Z {"ts": 1768980548.9156857, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:08.916135958Z INFO:     10.42.3.33:46374 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:08.925153663Z {"ts": 1768980548.9248893, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:08.925315595Z INFO:     10.42.2.41:53478 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:09.610555902Z {"ts": 1768980549.6101155, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:09.610733465Z INFO:     10.42.2.41:53482 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:10.878456039Z {"ts": 1768980550.878041, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:10.878688044Z INFO:     10.42.2.49:51034 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:11.639781509Z {"ts": 1768980551.6395705, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:11.640075685Z INFO:     10.42.0.1:38246 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:12.933009091Z {"ts": 1768980552.9328299, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:12.933238451Z INFO:     10.42.3.26:51062 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:13.637264504Z {"ts": 1768980553.6369581, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:13.637557876Z INFO:     10.42.0.1:38250 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:13.764326229Z {"ts": 1768980553.762764, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:13.764404951Z INFO:     10.42.2.49:51062 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:14.244704243Z {"ts": 1768980554.2444737, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:14.245074161Z INFO:     10.42.0.71:40046 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:15.204768426Z {"ts": 1768980555.2039003, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:15.204803675Z INFO:     10.42.2.41:53512 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:16.759952555Z {"ts": 1768980556.7597136, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:16.760812875Z INFO:     10.42.0.71:57494 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:17.601110794Z {"ts": 1768980557.6008031, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:17.601536239Z INFO:     10.42.3.33:59754 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:17.643126275Z {"ts": 1768980557.6397154, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:17.647180806Z INFO:     10.42.0.1:38394 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:19.782472284Z {"ts": 1768980559.782167, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:19.782599040Z INFO:     10.42.3.26:45782 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:20.161966170Z {"ts": 1768980560.16089, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:20.162003599Z INFO:     10.42.3.33:59762 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:20.485459719Z {"ts": 1768980560.4852, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:20.485642728Z INFO:     10.42.3.33:59768 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:21.030135733Z {"ts": 1768980561.0299928, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:21.030396687Z INFO:     10.42.0.70:46970 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:22.683075255Z {"ts": 1768980562.6814594, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:22.683124277Z INFO:     10.42.3.33:59788 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:23.367222945Z {"ts": 1768980563.366904, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:23.367508881Z INFO:     10.42.2.41:32944 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:23.641581539Z {"ts": 1768980563.6412504, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 2}
+2026-01-21T07:29:23.641766240Z INFO:     10.42.0.1:38406 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:23.642578145Z {"ts": 1768980563.6423774, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 2}
+2026-01-21T07:29:23.642896936Z INFO:     10.42.0.1:38404 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:25.886931389Z {"ts": 1768980565.884819, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:25.886983394Z INFO:     10.42.3.26:45836 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:26.343355754Z {"ts": 1768980566.3431504, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:26.343803625Z INFO:     10.42.0.70:46982 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:27.555256174Z {"ts": 1768980567.5549946, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:27.555547872Z INFO:     10.42.2.50:52860 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:28.050734814Z {"ts": 1768980568.0504448, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:28.050838182Z INFO:     10.42.2.50:52864 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:28.580637990Z {"ts": 1768980568.5775707, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 3}
+2026-01-21T07:29:28.582303537Z INFO:     10.42.0.70:51150 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:29.875046843Z {"ts": 1768980569.8747797, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:29.875306537Z INFO:     10.42.2.50:52884 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:30.167844162Z {"ts": 1768980570.167482, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:30.169350139Z INFO:     10.42.0.70:51158 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:30.251050513Z {"ts": 1768980570.250863, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:30.251228992Z INFO:     10.42.3.33:33782 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:30.900069307Z {"ts": 1768980570.8998098, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:30.900289929Z INFO:     10.42.3.26:53336 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:31.066666851Z {"ts": 1768980571.0663593, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:31.066788286Z INFO:     10.42.0.1:37982 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:31.629292718Z {"ts": 1768980571.629048, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:31.629510402Z INFO:     10.42.0.72:35744 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:32.448429025Z {"ts": 1768980572.448113, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:32.448579117Z INFO:     10.42.0.72:35752 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:32.848981422Z {"ts": 1768980572.848675, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:32.849074170Z INFO:     10.42.0.70:51190 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:33.018778068Z {"ts": 1768980573.0186155, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:33.019163788Z INFO:     10.42.3.26:53370 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:33.607634441Z {"ts": 1768980573.607289, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:33.608167852Z INFO:     10.42.1.58:43438 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:33.935826529Z {"ts": 1768980573.9355328, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:33.935983882Z INFO:     10.42.1.58:43448 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:34.629517980Z {"ts": 1768980574.6292944, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:34.629750805Z INFO:     10.42.0.70:51206 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:35.004228037Z {"ts": 1768980575.0040097, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:35.004504480Z INFO:     10.42.2.50:52894 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:35.067920509Z {"ts": 1768980575.067686, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:35.068061245Z INFO:     10.42.0.1:37986 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:35.117334314Z {"ts": 1768980575.117112, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:35.117527572Z INFO:     10.42.3.26:53402 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:36.168459486Z {"ts": 1768980576.168151, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:36.168639063Z INFO:     10.42.3.26:53418 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:36.256764109Z {"ts": 1768980576.2565525, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:36.256830348Z INFO:     10.42.2.49:35188 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:36.708315113Z {"ts": 1768980576.7080665, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:36.708540768Z INFO:     10.42.3.26:41752 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:36.988649142Z {"ts": 1768980576.9884663, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:36.988767167Z INFO:     10.42.3.33:40896 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:37.067404611Z {"ts": 1768980577.0670993, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:37.067540502Z INFO:     10.42.0.1:47602 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:38.054795157Z {"ts": 1768980578.054525, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:38.054857143Z INFO:     10.42.2.49:46108 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:38.838236303Z {"ts": 1768980578.8380485, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:38.838938888Z INFO:     10.42.2.50:57096 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:38.965047816Z {"ts": 1768980578.9647627, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:38.965348270Z INFO:     10.42.0.70:50942 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:39.270491219Z {"ts": 1768980579.270232, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:39.270854609Z INFO:     10.42.3.26:41782 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:40.307152249Z {"ts": 1768980580.3069277, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:40.307242374Z INFO:     10.42.3.26:41796 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:40.974904815Z {"ts": 1768980580.9746416, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:40.975050373Z INFO:     10.42.2.41:56400 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:41.092397414Z {"ts": 1768980581.0921333, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:41.092604972Z INFO:     10.42.0.71:36386 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:41.343356495Z {"ts": 1768980581.3430638, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:41.343432634Z INFO:     10.42.3.26:41818 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:42.154517425Z {"ts": 1768980582.154284, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:42.154582585Z INFO:     10.42.1.58:58384 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:42.376547847Z {"ts": 1768980582.3763225, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:42.376696727Z INFO:     10.42.3.26:41824 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:42.461938672Z {"ts": 1768980582.461742, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:42.461991332Z INFO:     10.42.2.50:57132 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:42.639339173Z {"ts": 1768980582.6390328, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:42.639410212Z INFO:     10.42.2.49:46120 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:43.066410439Z {"ts": 1768980583.066226, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:43.066487069Z INFO:     10.42.0.1:47606 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:43.381804461Z {"ts": 1768980583.3815975, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:43.381859370Z INFO:     10.42.0.72:60242 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:43.706197117Z {"ts": 1768980583.705944, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:43.706331037Z INFO:     10.42.3.33:40930 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:44.262142274Z {"ts": 1768980584.2619023, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:44.262356161Z INFO:     10.42.3.26:41852 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:44.290257765Z {"ts": 1768980584.2899787, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:44.290345303Z INFO:     10.42.1.57:40360 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:44.450598809Z {"ts": 1768980584.450405, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:44.450870459Z INFO:     10.42.3.26:41858 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:45.067561651Z {"ts": 1768980585.0671844, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:45.067720418Z INFO:     10.42.0.1:47614 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:45.493555758Z {"ts": 1768980585.4932628, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:45.493664605Z INFO:     10.42.3.26:41884 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:45.517312633Z {"ts": 1768980585.5170395, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:45.518381648Z INFO:     10.42.1.58:58402 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:46.906331514Z {"ts": 1768980586.9060483, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:46.906445173Z INFO:     10.42.3.33:56384 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:47.359465727Z {"ts": 1768980587.3591993, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:47.359549451Z INFO:     10.42.2.41:39634 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:47.486238639Z {"ts": 1768980587.4859653, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:47.486345532Z INFO:     10.42.2.41:39636 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:47.788302096Z {"ts": 1768980587.7881496, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:47.788549909Z INFO:     10.42.2.49:39398 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:47.969147016Z {"ts": 1768980587.9689415, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:47.969209502Z INFO:     10.42.2.41:39648 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:48.519418931Z {"ts": 1768980588.5191374, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:48.519507371Z INFO:     10.42.0.71:50346 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:48.600102589Z {"ts": 1768980588.5997732, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:48.600209140Z INFO:     10.42.3.26:47938 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:49.066857361Z {"ts": 1768980589.066668, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:49.067058425Z INFO:     10.42.0.1:43082 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:49.591369087Z {"ts": 1768980589.5911405, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:49.591696028Z INFO:     10.42.3.33:56398 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:50.657976448Z {"ts": 1768980590.6576715, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:50.659300227Z INFO:     10.42.0.72:54642 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:50.679875805Z {"ts": 1768980590.6796157, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:50.679986277Z INFO:     10.42.3.26:47958 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:55.068836432Z {"ts": 1768980595.0685842, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:55.068933809Z {"ts": 1768980595.0687373, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:55.069143499Z INFO:     10.42.0.1:43096 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:55.069366048Z INFO:     10.42.0.1:43098 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:02.495775152Z {"ts": 1768980602.495561, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:02.495862454Z INFO:     10.42.0.1:39626 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:06.496364820Z {"ts": 1768980606.4959397, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:06.496877604Z INFO:     10.42.0.1:39632 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:08.497243421Z {"ts": 1768980608.4969923, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:08.497363530Z INFO:     10.42.0.1:36142 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:13.723246563Z {"ts": 1768980613.7229204, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:13.723329295Z INFO:     10.42.3.26:41598 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:14.497034075Z {"ts": 1768980614.4968476, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:14.497092058Z INFO:     10.42.0.1:36148 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:16.496255963Z {"ts": 1768980616.4959292, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:16.496516084Z INFO:     10.42.0.1:36164 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:16.522964857Z {"ts": 1768980616.522742, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:16.523067587Z INFO:     10.42.0.70:56740 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:17.853948058Z {"ts": 1768980617.8536866, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:17.854082923Z INFO:     10.42.0.71:43612 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:18.652546819Z {"ts": 1768980618.65222, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:18.652679104Z INFO:     10.42.1.58:44516 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:19.716336608Z {"ts": 1768980619.716021, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:19.716414780Z INFO:     10.42.1.58:44532 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:19.984270113Z {"ts": 1768980619.984097, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:19.984441659Z INFO:     10.42.2.41:49416 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:20.496132717Z {"ts": 1768980620.4959128, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:20.496221867Z INFO:     10.42.0.1:43932 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:38.438998280Z {"ts": 1768980518.43875, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:38.439056832Z INFO:     10.42.3.26:42964 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:39.361599268Z {"ts": 1768980519.3614178, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:39.361737112Z INFO:     10.42.3.26:42994 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:39.627888672Z {"ts": 1768980519.6276822, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:39.628163040Z INFO:     10.42.3.33:45748 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:39.798655479Z {"ts": 1768980519.7983363, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:39.798743389Z INFO:     10.42.1.1:46682 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:40.480187465Z {"ts": 1768980520.4799466, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:40.480266866Z INFO:     10.42.2.41:36260 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:40.746262005Z {"ts": 1768980520.7460287, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:40.746327750Z INFO:     10.42.3.26:43010 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:40.759038794Z {"ts": 1768980520.7586012, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:40.759158659Z INFO:     10.42.3.33:45776 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:41.126866196Z {"ts": 1768980521.1265721, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:41.126964461Z INFO:     10.42.3.26:43012 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:41.734391742Z {"ts": 1768980521.7341888, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:41.734522593Z INFO:     10.42.3.33:45786 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:41.882083696Z {"ts": 1768980521.8816795, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:41.882170535Z INFO:     10.42.3.26:43044 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:42.000965037Z {"ts": 1768980522.0007155, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:42.001292125Z INFO:     10.42.2.41:36298 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:43.538429185Z {"ts": 1768980523.5381963, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:43.538862061Z INFO:     10.42.3.33:45822 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:43.940951204Z {"ts": 1768980523.9405725, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:43.941127474Z INFO:     10.42.2.41:60462 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:44.302321205Z {"ts": 1768980524.302071, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:44.302405896Z INFO:     10.42.2.41:60474 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:44.853252149Z {"ts": 1768980524.8529878, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:44.853432503Z INFO:     10.42.2.41:60484 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:45.800421734Z {"ts": 1768980525.8000565, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:45.800529095Z INFO:     10.42.1.1:36136 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:45.801628126Z {"ts": 1768980525.8013837, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 2}
+2026-01-21T07:28:45.802071907Z INFO:     10.42.1.1:36134 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:45.831569826Z {"ts": 1768980525.8313255, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:45.831816229Z INFO:     10.42.3.33:43026 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:46.343639951Z {"ts": 1768980526.3433008, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:46.343931926Z INFO:     10.42.3.26:43898 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:46.350214589Z {"ts": 1768980526.3499131, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:46.350305627Z INFO:     10.42.3.26:43906 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:47.281622771Z {"ts": 1768980527.2813537, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:47.281725259Z INFO:     10.42.3.26:43918 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:48.124941887Z {"ts": 1768980528.1247778, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:48.125220769Z INFO:     10.42.2.41:60502 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:48.474270467Z {"ts": 1768980528.4740372, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:48.474328064Z INFO:     10.42.3.33:43066 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:49.255928797Z {"ts": 1768980529.2557333, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:49.256153649Z INFO:     10.42.3.33:43094 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:49.657769444Z {"ts": 1768980529.6575177, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:49.658082774Z INFO:     10.42.3.33:43096 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:49.742852627Z {"ts": 1768980529.7426047, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:49.743212483Z INFO:     10.42.3.26:43942 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:49.809126894Z {"ts": 1768980529.8089278, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:49.809319596Z INFO:     10.42.3.33:43110 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:51.411625934Z {"ts": 1768980531.4114504, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:51.411706249Z INFO:     10.42.3.33:43156 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:51.798588805Z {"ts": 1768980531.798323, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:51.798736010Z INFO:     10.42.1.1:36162 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:52.766259381Z {"ts": 1768980532.7659485, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:52.766668341Z INFO:     10.42.3.26:44002 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:54.383663460Z {"ts": 1768980534.383395, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:54.383715683Z INFO:     10.42.3.26:44024 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:55.395434102Z {"ts": 1768980535.3952453, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:55.395599063Z INFO:     10.42.2.41:41420 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:56.021473189Z {"ts": 1768980536.0212586, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:56.021775048Z INFO:     10.42.0.70:43826 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:56.432114999Z {"ts": 1768980536.4318037, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:56.432239926Z INFO:     10.42.2.41:41450 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:57.052765053Z {"ts": 1768980537.0524263, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:57.053063318Z INFO:     10.42.0.70:43854 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:57.284354078Z {"ts": 1768980537.284014, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:57.284645270Z INFO:     10.42.1.1:49472 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:58.834894554Z {"ts": 1768980538.834607, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:58.835444430Z INFO:     10.42.3.26:49478 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:59.285319664Z {"ts": 1768980539.2850115, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:59.285514976Z INFO:     10.42.1.1:49476 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:59.327974091Z {"ts": 1768980539.327778, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:59.328124790Z INFO:     10.42.3.33:55764 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:00.425730551Z {"ts": 1768980540.4253738, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:00.425905720Z INFO:     10.42.0.70:43872 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:01.578005267Z {"ts": 1768980541.5777192, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:01.578159938Z INFO:     10.42.0.70:43878 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:02.818729521Z {"ts": 1768980542.818355, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:02.818990045Z INFO:     10.42.0.70:43892 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:04.955838404Z {"ts": 1768980544.9555242, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:04.956026304Z INFO:     10.42.0.70:43918 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:05.126498468Z {"ts": 1768980545.1263037, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:05.126589443Z INFO:     10.42.3.26:49516 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:05.285213405Z {"ts": 1768980545.2850509, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:05.285518395Z INFO:     10.42.1.1:53646 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:07.286291392Z {"ts": 1768980547.2859893, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:07.286535879Z INFO:     10.42.1.1:53650 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:08.728839444Z {"ts": 1768980548.72855, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:08.728983055Z INFO:     10.42.2.41:53464 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:09.396052877Z {"ts": 1768980549.3958957, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:09.396244797Z INFO:     10.42.0.70:44904 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:10.603236487Z {"ts": 1768980550.602914, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:10.603643528Z INFO:     10.42.0.70:44912 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:11.284909453Z {"ts": 1768980551.2846038, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:11.285000219Z INFO:     10.42.1.1:53652 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:12.110582155Z {"ts": 1768980552.110233, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:12.110696205Z INFO:     10.42.1.58:59662 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:12.685626721Z {"ts": 1768980552.685452, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:12.685748418Z INFO:     10.42.2.41:53496 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:13.543014369Z {"ts": 1768980553.5426176, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:13.544774702Z INFO:     10.42.2.49:51046 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:13.547718672Z {"ts": 1768980553.5475757, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:13.548010004Z INFO:     10.42.0.71:40030 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:13.982012749Z {"ts": 1768980553.9817774, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:13.982328025Z INFO:     10.42.0.71:40034 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:15.261767327Z {"ts": 1768980555.261395, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:15.261931298Z INFO:     10.42.3.26:51070 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:15.447671387Z {"ts": 1768980555.4472256, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:15.448072283Z INFO:     10.42.3.26:45754 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:15.570686056Z {"ts": 1768980555.570283, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:15.571149779Z INFO:     10.42.2.49:46862 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:17.290680119Z {"ts": 1768980557.2878618, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 2}
+2026-01-21T07:29:17.290722188Z INFO:     10.42.1.1:44696 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:17.291238665Z {"ts": 1768980557.2910366, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 2}
+2026-01-21T07:29:17.291527443Z INFO:     10.42.1.1:44708 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:17.292774312Z {"ts": 1768980557.2923496, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 2}
+2026-01-21T07:29:17.293638109Z INFO:     10.42.2.41:32902 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:17.661974685Z {"ts": 1768980557.6617424, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:17.662099453Z INFO:     10.42.2.41:32924 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:18.375842886Z {"ts": 1768980558.3756611, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:18.376086993Z INFO:     10.42.0.71:57500 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:18.624523080Z {"ts": 1768980558.6243064, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:18.625077867Z INFO:     10.42.3.26:45758 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:19.218561147Z {"ts": 1768980559.2182128, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:19.218879754Z INFO:     10.42.3.26:45770 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:19.310162979Z {"ts": 1768980559.30998, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 2}
+2026-01-21T07:29:19.310746485Z INFO:     10.42.0.70:46946 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:19.311930561Z {"ts": 1768980559.3117044, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:19.312227722Z INFO:     10.42.1.58:53778 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:19.330266137Z {"ts": 1768980559.3300407, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:19.330657435Z INFO:     10.42.3.26:45780 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:21.053095652Z {"ts": 1768980561.0527096, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:21.053223534Z INFO:     10.42.3.26:45788 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:21.686556553Z {"ts": 1768980561.6862886, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:21.686680985Z INFO:     10.42.0.70:46978 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:22.199890731Z {"ts": 1768980562.199588, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:22.200093599Z INFO:     10.42.3.33:59776 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:23.285269955Z {"ts": 1768980563.2849185, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:23.285419258Z INFO:     10.42.1.1:44714 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:24.027110680Z {"ts": 1768980564.026862, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:24.027446561Z INFO:     10.42.3.26:45808 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:26.795771636Z {"ts": 1768980566.7953877, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:26.795828963Z INFO:     10.42.1.57:34298 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:27.181356098Z {"ts": 1768980567.1811297, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:27.181594797Z INFO:     10.42.3.26:53300 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:27.650134052Z {"ts": 1768980567.6499324, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:27.650435048Z INFO:     10.42.0.71:50972 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:28.714132800Z {"ts": 1768980568.713863, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:28.714922467Z INFO:     10.42.1.1:38186 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:29.066077420Z {"ts": 1768980569.06588, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 2}
+2026-01-21T07:29:29.066370040Z INFO:     10.42.2.50:52876 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:29.621788115Z {"ts": 1768980569.6216946, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:29.622443423Z INFO:     10.42.2.41:43130 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:30.715504406Z {"ts": 1768980570.7151783, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:30.715875604Z INFO:     10.42.1.1:38190 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:31.177325512Z {"ts": 1768980571.1771443, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:31.177416027Z INFO:     10.42.3.26:53340 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:31.263104889Z {"ts": 1768980571.2628424, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:31.263459568Z INFO:     10.42.0.71:50978 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:31.391743516Z {"ts": 1768980571.3914905, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:31.391984693Z INFO:     10.42.0.70:51180 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:31.733081865Z {"ts": 1768980571.7328022, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:31.733263374Z INFO:     10.42.3.33:33792 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:31.976702141Z {"ts": 1768980571.9763308, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:31.976838055Z INFO:     10.42.3.26:53350 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:32.706562007Z {"ts": 1768980572.706229, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:32.706681788Z INFO:     10.42.0.72:35768 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:33.777943753Z {"ts": 1768980573.7777588, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:33.778043295Z INFO:     10.42.0.70:51198 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:34.694278119Z {"ts": 1768980574.6936681, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:34.694364184Z INFO:     10.42.3.26:53390 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:34.845463129Z {"ts": 1768980574.845133, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:34.845613826Z INFO:     10.42.2.49:35182 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:35.627541748Z {"ts": 1768980575.6274052, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:35.627783265Z INFO:     10.42.0.70:51208 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:35.718404290Z {"ts": 1768980575.7180793, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:35.718694966Z INFO:     10.42.0.70:51212 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:35.924432643Z {"ts": 1768980575.9242303, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:35.924703509Z INFO:     10.42.0.71:50994 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:36.715347654Z {"ts": 1768980576.715112, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:36.715616492Z INFO:     10.42.1.1:40178 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:36.837083472Z {"ts": 1768980576.8367336, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:36.837219670Z INFO:     10.42.3.26:41756 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:37.140145918Z {"ts": 1768980577.1398501, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:37.140247277Z INFO:     10.42.0.70:50920 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:37.853410962Z {"ts": 1768980577.8532176, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:37.854592790Z INFO:     10.42.1.57:40344 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:38.205967985Z {"ts": 1768980578.2055423, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:38.206088093Z INFO:     10.42.2.41:56358 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:38.385076813Z {"ts": 1768980578.3849032, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:38.385129976Z INFO:     10.42.1.57:40358 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:38.713513591Z {"ts": 1768980578.7133625, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:38.713710972Z INFO:     10.42.1.1:40190 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:38.918674111Z {"ts": 1768980578.918345, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:38.918790500Z INFO:     10.42.1.58:58372 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:39.450633400Z {"ts": 1768980579.4503446, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:39.450723456Z INFO:     10.42.2.41:56372 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:39.905664158Z {"ts": 1768980579.9054024, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:39.905748985Z INFO:     10.42.3.26:41790 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:40.030187145Z {"ts": 1768980580.0298953, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:40.030309453Z INFO:     10.42.2.41:56384 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:40.189846955Z {"ts": 1768980580.1896565, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:40.189927155Z INFO:     10.42.0.71:36376 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:40.331239699Z {"ts": 1768980580.3310208, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:40.331298937Z INFO:     10.42.3.26:41804 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:40.512654783Z {"ts": 1768980580.512249, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:40.512710397Z INFO:     10.42.2.50:57112 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:41.052230113Z {"ts": 1768980581.052007, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:41.052291110Z INFO:     10.42.0.72:60214 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:41.255164235Z {"ts": 1768980581.2547584, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:41.255402984Z INFO:     10.42.3.33:40914 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:42.039484720Z {"ts": 1768980582.0392005, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:42.039626052Z INFO:     10.42.0.72:60218 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:42.714776551Z {"ts": 1768980582.7145743, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:42.714863142Z INFO:     10.42.1.1:40192 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:43.179473639Z {"ts": 1768980583.1791363, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:43.179548855Z INFO:     10.42.1.58:58396 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:43.527477706Z {"ts": 1768980583.527226, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:43.527592830Z INFO:     10.42.2.50:57136 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:44.165919728Z {"ts": 1768980584.1656907, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:44.166012837Z INFO:     10.42.0.72:60244 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:44.448133752Z {"ts": 1768980584.4479434, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:44.448369884Z INFO:     10.42.0.72:60260 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:44.596863799Z {"ts": 1768980584.596514, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:44.598222177Z INFO:     10.42.2.50:57140 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:44.776331478Z {"ts": 1768980584.7760015, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:44.776454499Z INFO:     10.42.3.26:41860 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:45.325966392Z {"ts": 1768980585.3257456, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:45.326081785Z INFO:     10.42.3.26:41876 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:46.292775505Z {"ts": 1768980586.292229, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:46.293073267Z INFO:     10.42.2.50:57170 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:46.391728368Z {"ts": 1768980586.3915284, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:46.391862168Z INFO:     10.42.0.72:60270 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:46.527982846Z {"ts": 1768980586.527771, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:46.528086884Z INFO:     10.42.3.26:47908 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:46.580713903Z {"ts": 1768980586.5804496, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:46.580749728Z INFO:     10.42.0.70:48338 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:48.426143070Z {"ts": 1768980588.4258308, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:48.426319135Z INFO:     10.42.2.41:39664 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:48.550137170Z {"ts": 1768980588.5499241, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:48.550200450Z INFO:     10.42.0.71:50358 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:48.715673411Z {"ts": 1768980588.7154038, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:48.715746361Z {"ts": 1768980588.7155602, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:48.715875844Z INFO:     10.42.1.1:59216 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:48.716045693Z INFO:     10.42.1.1:59218 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:48.727744206Z {"ts": 1768980588.7275014, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:48.727806804Z INFO:     10.42.2.41:39666 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:49.496631076Z {"ts": 1768980589.496274, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:49.496842455Z INFO:     10.42.2.50:44678 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:50.095859938Z {"ts": 1768980590.0956345, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:50.095947922Z INFO:     10.42.1.58:52790 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:50.561686682Z {"ts": 1768980590.5614684, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:50.561881665Z INFO:     10.42.3.33:56420 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:50.688837863Z {"ts": 1768980590.6886547, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:50.688999425Z INFO:     10.42.2.49:39412 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:50.976639156Z {"ts": 1768980590.97634, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:50.976749826Z INFO:     10.42.2.49:39422 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:51.158235143Z {"ts": 1768980591.1580663, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:51.159253751Z INFO:     10.42.3.26:47980 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:54.714037979Z {"ts": 1768980594.7138283, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:54.714202182Z INFO:     10.42.1.1:59236 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:00.144175794Z {"ts": 1768980600.1439052, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:00.144266984Z INFO:     10.42.1.1:35564 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:02.143245371Z {"ts": 1768980602.1430326, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:02.143369345Z INFO:     10.42.1.1:35568 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:08.145261102Z {"ts": 1768980608.1449635, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:30:08.145417779Z INFO:     10.42.1.1:45702 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:10.143372490Z {"ts": 1768980610.143171, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:10.143428006Z INFO:     10.42.1.1:45714 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:13.327817694Z {"ts": 1768980613.3274915, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:13.327899002Z INFO:     10.42.2.41:59440 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:13.600247829Z {"ts": 1768980613.5997572, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:13.600364133Z INFO:     10.42.2.50:39374 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:14.143037150Z {"ts": 1768980614.142822, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:14.143101402Z INFO:     10.42.1.1:45724 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:14.396186443Z {"ts": 1768980614.39595, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:14.396291571Z INFO:     10.42.1.59:50328 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:14.755841497Z {"ts": 1768980614.7556157, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:14.755922855Z INFO:     10.42.3.26:41608 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:15.458867644Z {"ts": 1768980615.4586465, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:15.458945806Z INFO:     10.42.3.33:34314 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:15.791440784Z {"ts": 1768980615.7911735, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:15.791513314Z INFO:     10.42.3.26:41616 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:17.587734768Z {"ts": 1768980617.587519, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:17.587870715Z INFO:     10.42.0.71:37882 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:18.893832567Z {"ts": 1768980618.8934941, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:18.893939515Z INFO:     10.42.3.26:43514 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:19.929395479Z {"ts": 1768980619.9291303, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:19.929548965Z INFO:     10.42.3.26:43536 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:20.146113231Z {"ts": 1768980620.1458364, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:30:20.146162806Z {"ts": 1768980620.1460736, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:30:20.146446103Z INFO:     10.42.1.1:41484 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:20.146575779Z INFO:     10.42.1.1:41486 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:20.779422371Z {"ts": 1768980620.7791452, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:20.779526364Z INFO:     10.42.2.49:44230 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:43.116286791Z {"ts": 1768980523.1161177, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:43.116471678Z INFO:     10.42.2.41:36320 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:43.547587621Z {"ts": 1768980523.5473516, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:43.547919497Z INFO:     10.42.3.26:43050 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:44.659170740Z {"ts": 1768980524.659, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:44.659293504Z INFO:     10.42.3.26:43880 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:44.809728349Z {"ts": 1768980524.8094606, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:44.809832927Z {"ts": 1768980524.8096626, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:44.809962527Z INFO:     10.42.3.1:45824 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:44.810142420Z INFO:     10.42.3.1:45826 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:45.500858160Z {"ts": 1768980525.5005343, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:45.501209118Z INFO:     10.42.3.26:43892 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:46.591510310Z {"ts": 1768980526.5912008, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:46.591652759Z INFO:     10.42.3.26:43914 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:46.602204911Z {"ts": 1768980526.6020546, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:46.602366692Z INFO:     10.42.3.33:43032 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:47.652480795Z {"ts": 1768980527.6520593, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:47.652609610Z INFO:     10.42.3.26:43932 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:47.920651289Z {"ts": 1768980527.9204113, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:47.920833538Z INFO:     10.42.3.33:43040 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:47.928624407Z {"ts": 1768980527.9283679, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:47.928908027Z INFO:     10.42.3.33:43052 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:48.128791790Z {"ts": 1768980528.1285868, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:48.129000888Z INFO:     10.42.2.41:60506 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:48.722519843Z {"ts": 1768980528.7222364, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:48.722650396Z INFO:     10.42.3.33:43080 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:49.328957952Z {"ts": 1768980529.3287332, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:49.329400800Z INFO:     10.42.3.26:43934 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:49.751989944Z {"ts": 1768980529.7516708, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:49.752097015Z INFO:     10.42.3.26:43952 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:50.206868055Z {"ts": 1768980530.2066205, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:50.207115519Z INFO:     10.42.2.41:60510 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:50.700367143Z {"ts": 1768980530.7001836, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:50.700449774Z INFO:     10.42.3.33:43122 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:50.809118804Z {"ts": 1768980530.8088355, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:50.809487709Z INFO:     10.42.3.1:45844 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:51.079522726Z {"ts": 1768980531.0792766, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:51.079720471Z INFO:     10.42.3.26:43978 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:51.729035102Z {"ts": 1768980531.7287812, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:51.729299422Z INFO:     10.42.3.26:43990 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:52.338579573Z {"ts": 1768980532.338248, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:52.338686003Z INFO:     10.42.3.26:43994 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:52.506839639Z {"ts": 1768980532.5066226, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:52.507739983Z INFO:     10.42.2.41:60518 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:52.755384011Z {"ts": 1768980532.7552078, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:52.755542786Z INFO:     10.42.3.26:44000 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:54.378105549Z {"ts": 1768980534.3779564, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:54.378216736Z INFO:     10.42.2.41:60532 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:55.233084456Z {"ts": 1768980535.2328422, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:55.233161842Z INFO:     10.42.3.26:49440 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:55.688894067Z {"ts": 1768980535.6886132, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:55.689100763Z INFO:     10.42.3.33:55742 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:55.996868611Z {"ts": 1768980535.9966416, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:55.996970607Z INFO:     10.42.2.41:41434 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:56.294430073Z {"ts": 1768980536.294127, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:56.294489150Z INFO:     10.42.3.1:34306 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:56.810614372Z {"ts": 1768980536.8102467, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:56.811147709Z INFO:     10.42.0.70:43840 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:57.729742993Z {"ts": 1768980537.7295632, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:57.730072564Z INFO:     10.42.3.26:49454 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:57.748512370Z {"ts": 1768980537.7481718, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:57.748651878Z INFO:     10.42.3.26:49468 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:58.182123216Z {"ts": 1768980538.1817894, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:58.182229295Z INFO:     10.42.0.70:43856 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:28:58.293204497Z {"ts": 1768980538.2929635, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:28:58.293299278Z INFO:     10.42.3.1:34312 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:28:58.649847177Z {"ts": 1768980538.6495607, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:28:58.650064137Z INFO:     10.42.2.41:41472 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:00.849478783Z {"ts": 1768980540.8491926, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:00.849651273Z INFO:     10.42.2.41:41492 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:00.901977636Z {"ts": 1768980540.9017265, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:00.902161477Z INFO:     10.42.3.26:49502 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:01.885951177Z {"ts": 1768980541.8857336, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:01.886254891Z INFO:     10.42.3.33:55778 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:02.550232789Z {"ts": 1768980542.5500934, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:02.550397393Z INFO:     10.42.3.26:49510 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:03.810270324Z {"ts": 1768980543.8099985, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:03.810537122Z INFO:     10.42.0.70:43908 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:04.294082021Z {"ts": 1768980544.2937598, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:04.294237985Z INFO:     10.42.3.1:34328 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:04.451731161Z {"ts": 1768980544.4514523, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:04.452672960Z INFO:     10.42.0.70:43910 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:05.541068933Z {"ts": 1768980545.5407472, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:05.541169538Z INFO:     10.42.0.70:44880 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:06.294654321Z {"ts": 1768980546.2941947, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:06.294824182Z INFO:     10.42.3.1:42888 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:06.483432584Z {"ts": 1768980546.4832551, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:06.483655742Z INFO:     10.42.3.33:46372 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:07.215207991Z {"ts": 1768980547.2148669, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:07.215486539Z INFO:     10.42.0.70:44896 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:08.017199898Z {"ts": 1768980548.0167255, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:08.017229257Z INFO:     10.42.3.26:51022 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:10.293703491Z {"ts": 1768980550.2935376, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:10.294110862Z INFO:     10.42.3.1:42892 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:10.475229966Z {"ts": 1768980550.4749825, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:10.475427926Z INFO:     10.42.1.57:37324 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:10.708186579Z {"ts": 1768980550.707937, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:10.708355089Z INFO:     10.42.1.57:37334 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:11.642438124Z {"ts": 1768980551.642159, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:11.642917959Z INFO:     10.42.3.26:51040 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:11.742308057Z {"ts": 1768980551.7420273, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:11.742524461Z INFO:     10.42.0.70:44916 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:12.058442098Z {"ts": 1768980552.0582838, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:12.058736460Z INFO:     10.42.3.26:51052 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:12.731894739Z {"ts": 1768980552.7316465, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:12.732171730Z INFO:     10.42.3.26:51058 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:13.884633751Z {"ts": 1768980553.8844182, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:13.884817666Z INFO:     10.42.1.58:59672 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:15.352670005Z {"ts": 1768980555.351581, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:15.352729653Z INFO:     10.42.3.26:45732 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:15.396458261Z {"ts": 1768980555.3962138, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:15.396675436Z INFO:     10.42.1.57:33242 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:15.408354446Z {"ts": 1768980555.4080322, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:15.408539144Z INFO:     10.42.3.26:45748 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:16.302011791Z {"ts": 1768980556.3013964, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 5}
+2026-01-21T07:29:16.307607848Z INFO:     10.42.3.1:39688 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:16.308826359Z {"ts": 1768980556.3086364, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 11}
+2026-01-21T07:29:16.309096406Z INFO:     10.42.3.1:39690 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:17.217983281Z {"ts": 1768980557.209748, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 5}
+2026-01-21T07:29:17.237822267Z INFO:     10.42.3.26:45756 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:17.275553032Z {"ts": 1768980557.275208, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:17.275871771Z INFO:     10.42.2.49:46878 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:17.465156030Z {"ts": 1768980557.46491, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:17.465345759Z INFO:     10.42.2.41:32916 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:20.472048218Z {"ts": 1768980560.4718204, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:20.472312465Z INFO:     10.42.2.49:46892 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:20.722808661Z {"ts": 1768980560.7225451, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:20.724016962Z INFO:     10.42.1.57:33246 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:20.902009187Z {"ts": 1768980560.901811, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:20.902071043Z INFO:     10.42.0.70:46960 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:22.294743811Z {"ts": 1768980562.294514, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:22.295007476Z INFO:     10.42.3.1:39706 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:22.546871857Z {"ts": 1768980562.546631, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:22.547145602Z INFO:     10.42.3.26:45800 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:22.743482807Z {"ts": 1768980562.743255, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:22.743903161Z INFO:     10.42.2.41:32926 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:23.104518558Z {"ts": 1768980563.1043315, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:23.104844116Z INFO:     10.42.3.33:59790 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:23.260769579Z {"ts": 1768980563.2604465, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:23.261006793Z INFO:     10.42.2.41:32932 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:25.842401658Z {"ts": 1768980565.8421583, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:25.842667982Z INFO:     10.42.3.26:45822 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:26.197613883Z {"ts": 1768980566.197422, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:26.198614986Z INFO:     10.42.3.33:59804 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:26.342614129Z {"ts": 1768980566.3422334, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:26.343094492Z INFO:     10.42.1.58:53788 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:27.137428723Z {"ts": 1768980567.136728, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:27.137576421Z INFO:     10.42.3.33:33768 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:27.245452938Z {"ts": 1768980567.2449865, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:27.245621725Z INFO:     10.42.0.71:50964 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:27.671397341Z {"ts": 1768980567.6712427, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:27.671675418Z INFO:     10.42.0.70:51140 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:27.724914556Z {"ts": 1768980567.7246723, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:27.725933943Z INFO:     10.42.3.1:37204 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:28.481115442Z {"ts": 1768980568.4809086, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:28.481357183Z INFO:     10.42.0.71:50974 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:28.756679047Z {"ts": 1768980568.7561803, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:28.756716673Z INFO:     10.42.3.26:53312 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:28.997430019Z {"ts": 1768980568.9971738, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:28.997527701Z INFO:     10.42.2.41:43116 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:29.032925574Z {"ts": 1768980569.0326009, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:29.032963822Z INFO:     10.42.1.57:34310 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:29.429851589Z {"ts": 1768980569.4296231, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:29.430066510Z INFO:     10.42.0.72:35736 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:29.723779884Z {"ts": 1768980569.7234926, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:29.724088822Z INFO:     10.42.3.1:37216 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:29.802917211Z {"ts": 1768980569.8025787, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:29.803169424Z INFO:     10.42.3.26:53320 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:30.357178469Z {"ts": 1768980570.356134, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:30.357314803Z INFO:     10.42.0.71:50976 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:30.595740913Z {"ts": 1768980570.5954614, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:30.596010136Z INFO:     10.42.0.70:51164 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:30.763107064Z {"ts": 1768980570.7628376, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:30.763218346Z INFO:     10.42.3.33:33786 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:31.909963996Z {"ts": 1768980571.909708, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:31.910680166Z INFO:     10.42.2.49:35164 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:32.378843269Z {"ts": 1768980572.3776102, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:32.378892884Z INFO:     10.42.3.26:53366 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:32.518309944Z {"ts": 1768980572.5180151, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:32.518554783Z INFO:     10.42.2.41:43138 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:33.016137830Z {"ts": 1768980573.0147936, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:33.016178391Z INFO:     10.42.1.58:43436 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:33.464719549Z {"ts": 1768980573.4642174, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:33.465066203Z INFO:     10.42.3.33:33808 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:33.554231125Z {"ts": 1768980573.5539148, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:33.554383543Z INFO:     10.42.2.49:35168 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:34.064269991Z {"ts": 1768980574.0640955, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:34.064346484Z INFO:     10.42.3.26:53376 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:34.109725911Z {"ts": 1768980574.1094697, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:34.109882357Z INFO:     10.42.3.33:33812 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:34.553034522Z {"ts": 1768980574.5527043, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:34.553835563Z INFO:     10.42.1.57:34316 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:35.190633345Z {"ts": 1768980575.19036, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:35.190697744Z INFO:     10.42.3.33:33824 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:35.724541688Z {"ts": 1768980575.7241187, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:35.724869077Z INFO:     10.42.3.1:37224 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:35.772382168Z {"ts": 1768980575.7721806, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:35.772504933Z INFO:     10.42.0.71:50980 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:36.074946735Z {"ts": 1768980576.074727, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:36.075014880Z INFO:     10.42.3.26:53412 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:36.790049332Z {"ts": 1768980576.789761, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:36.790134726Z INFO:     10.42.0.70:50918 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:37.202810944Z {"ts": 1768980577.2025142, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:37.202938120Z INFO:     10.42.3.26:41766 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:37.323804632Z {"ts": 1768980577.3235388, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:37.323852473Z INFO:     10.42.0.70:50928 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:37.723204800Z {"ts": 1768980577.7229888, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:37.723276428Z INFO:     10.42.3.1:57140 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:37.775881973Z {"ts": 1768980577.7756336, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:37.776074923Z INFO:     10.42.0.72:60200 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:37.901378453Z {"ts": 1768980577.9011865, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:37.901439597Z INFO:     10.42.3.33:40900 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:38.235538079Z {"ts": 1768980578.2352922, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:38.235680485Z INFO:     10.42.3.26:41768 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:39.121060999Z {"ts": 1768980579.1208267, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:39.121168468Z INFO:     10.42.0.71:36366 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:39.266456699Z {"ts": 1768980579.266062, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:39.266543850Z INFO:     10.42.3.33:40912 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:39.988806537Z {"ts": 1768980579.988576, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:39.988905805Z INFO:     10.42.2.41:56380 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:41.395708933Z {"ts": 1768980581.395557, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:41.395803419Z INFO:     10.42.2.50:57122 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:41.574692527Z {"ts": 1768980581.5744524, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:41.574807681Z INFO:     10.42.2.41:56410 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:41.723820885Z {"ts": 1768980581.7236025, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:41.723913995Z INFO:     10.42.3.1:57152 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:42.114728989Z {"ts": 1768980582.1145191, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:42.114974075Z INFO:     10.42.3.33:40924 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:42.317731915Z {"ts": 1768980582.3174381, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:42.318459972Z INFO:     10.42.1.58:58394 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:43.102639929Z {"ts": 1768980583.1023858, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:43.102768708Z INFO:     10.42.0.72:60232 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:43.220534225Z {"ts": 1768980583.2201674, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:43.220980025Z INFO:     10.42.0.71:36398 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:43.412585825Z {"ts": 1768980583.4122217, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:43.412732664Z INFO:     10.42.3.26:41840 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:45.228887675Z {"ts": 1768980585.2287273, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:45.229142688Z INFO:     10.42.2.41:56418 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:45.354354273Z {"ts": 1768980585.3540354, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:45.354482290Z INFO:     10.42.2.49:46128 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:45.661452254Z {"ts": 1768980585.6610954, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:45.661735271Z INFO:     10.42.1.58:58414 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:45.844539934Z {"ts": 1768980585.8441536, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:45.844740720Z INFO:     10.42.2.50:57154 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:46.422762148Z {"ts": 1768980586.4224267, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:46.423038479Z INFO:     10.42.0.70:48336 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:46.725762064Z {"ts": 1768980586.7254517, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:46.725818559Z INFO:     10.42.1.58:52782 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:47.456306716Z {"ts": 1768980587.456025, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:47.456443201Z INFO:     10.42.0.71:50338 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:47.563280938Z {"ts": 1768980587.5629427, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:47.563344746Z INFO:     10.42.3.26:47924 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:47.655399870Z {"ts": 1768980587.6550932, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:47.655533435Z INFO:     10.42.1.58:52786 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:47.726063925Z {"ts": 1768980587.7257628, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 2}
+2026-01-21T07:29:47.726169057Z {"ts": 1768980587.7259676, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:29:47.726324712Z INFO:     10.42.3.1:49698 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:47.726486090Z INFO:     10.42.3.1:49696 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:48.850102973Z {"ts": 1768980588.8499272, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:48.850254511Z INFO:     10.42.0.71:50362 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:49.032001661Z {"ts": 1768980589.0316858, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:49.032094260Z INFO:     10.42.3.26:47948 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:49.620039943Z {"ts": 1768980589.619735, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:49.620100379Z INFO:     10.42.2.50:44688 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:49.638824571Z {"ts": 1768980589.6385198, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:49.638925857Z INFO:     10.42.3.26:47950 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:49.792835792Z {"ts": 1768980589.7925897, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:49.793113932Z INFO:     10.42.0.71:50366 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:49.913496110Z {"ts": 1768980589.91319, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:49.913558996Z INFO:     10.42.3.33:56412 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:50.855219787Z {"ts": 1768980590.8550653, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:50.855358405Z INFO:     10.42.3.33:56424 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:29:53.723394036Z {"ts": 1768980593.7231884, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:53.723585769Z INFO:     10.42.3.1:49714 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:29:59.152375534Z {"ts": 1768980599.1521204, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:29:59.152490219Z INFO:     10.42.3.1:48188 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:01.152802645Z {"ts": 1768980601.1525118, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:01.152897382Z INFO:     10.42.3.1:48192 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:07.151981372Z {"ts": 1768980607.1517794, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:07.152227644Z INFO:     10.42.3.1:48208 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:09.154583961Z {"ts": 1768980609.1543415, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:09.154684307Z INFO:     10.42.3.1:47606 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:13.152290577Z {"ts": 1768980613.1520178, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:13.152571014Z INFO:     10.42.3.1:47622 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:14.667125242Z {"ts": 1768980614.6668823, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:14.667277349Z INFO:     10.42.2.49:59042 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:15.730676150Z {"ts": 1768980615.730387, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:15.730836590Z INFO:     10.42.0.72:35114 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:16.792270552Z {"ts": 1768980616.7920473, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:16.792339477Z INFO:     10.42.1.59:50336 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:16.825165147Z {"ts": 1768980616.824863, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:16.825265041Z INFO:     10.42.3.26:41622 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:17.857801334Z {"ts": 1768980617.8573925, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:17.858159946Z INFO:     10.42.3.26:43506 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:18.918893161Z {"ts": 1768980618.9185975, "service": "auth", "event": "http", "method": "GET", "path": "/validate", "status": 200, "lat_ms": 0}
+2026-01-21T07:30:18.919862319Z INFO:     10.42.3.26:43524 - "GET /validate HTTP/1.1" 200 OK
+2026-01-21T07:30:19.153935544Z {"ts": 1768980619.1536002, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:30:19.154068466Z {"ts": 1768980619.1537554, "service": "auth", "event": "http", "method": "GET", "path": "/health", "status": 200, "lat_ms": 1}
+2026-01-21T07:30:19.154081069Z INFO:     10.42.3.1:46120 - "GET /health HTTP/1.1" 200 OK
+2026-01-21T07:30:19.154362170Z INFO:     10.42.3.1:46122 - "GET /health HTTP/1.1" 200 OK

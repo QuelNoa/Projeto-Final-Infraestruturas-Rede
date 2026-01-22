@@ -1,0 +1,136 @@
+apiVersion: v1
+items:
+- apiVersion: networking.k8s.io/v1
+  kind: NetworkPolicy
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"networking.k8s.io/v1","kind":"NetworkPolicy","metadata":{"annotations":{},"creationTimestamp":"2026-01-21T07:30:13Z","generation":1,"name":"allow-api-to-auth","namespace":"resilience","resourceVersion":"54587","uid":"c449f9bb-08c8-4a46-861c-63e22e1763dd"},"spec":{"egress":[{"ports":[{"port":8000,"protocol":"TCP"}],"to":[{"podSelector":{"matchLabels":{"app":"auth"}}}]}],"podSelector":{"matchLabels":{"app":"api"}},"policyTypes":["Egress"]}}
+    creationTimestamp: "2026-01-21T07:35:15Z"
+    generation: 1
+    name: allow-api-to-auth
+    namespace: resilience
+    resourceVersion: "54899"
+    uid: ef7c4dcf-0363-4bca-b1f9-01c7daf1eea6
+  spec:
+    egress:
+    - ports:
+      - port: 8000
+        protocol: TCP
+      to:
+      - podSelector:
+          matchLabels:
+            app: auth
+    podSelector:
+      matchLabels:
+        app: api
+    policyTypes:
+    - Egress
+- apiVersion: networking.k8s.io/v1
+  kind: NetworkPolicy
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"networking.k8s.io/v1","kind":"NetworkPolicy","metadata":{"annotations":{},"name":"allow-auth-from-api","namespace":"resilience"},"spec":{"ingress":[{"from":[{"podSelector":{"matchLabels":{"app":"api"}}}],"ports":[{"port":8000,"protocol":"TCP"}]}],"podSelector":{"matchLabels":{"app":"auth"}},"policyTypes":["Ingress"]}}
+    creationTimestamp: "2026-01-21T04:27:27Z"
+    generation: 1
+    name: allow-auth-from-api
+    namespace: resilience
+    resourceVersion: "43262"
+    uid: 518120ae-4c82-4e04-89e7-08301aba53c3
+  spec:
+    ingress:
+    - from:
+      - podSelector:
+          matchLabels:
+            app: api
+      ports:
+      - port: 8000
+        protocol: TCP
+    podSelector:
+      matchLabels:
+        app: auth
+    policyTypes:
+    - Ingress
+- apiVersion: networking.k8s.io/v1
+  kind: NetworkPolicy
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"networking.k8s.io/v1","kind":"NetworkPolicy","metadata":{"annotations":{},"name":"app-allow-dns","namespace":"resilience"},"spec":{"egress":[{"ports":[{"port":53,"protocol":"UDP"},{"port":53,"protocol":"TCP"}],"to":[{"namespaceSelector":{"matchLabels":{"kubernetes.io/metadata.name":"kube-system"}},"podSelector":{"matchLabels":{"k8s-app":"kube-dns"}}}]}],"podSelector":{"matchLabels":{"tier":"app"}},"policyTypes":["Egress"]}}
+    creationTimestamp: "2026-01-20T17:47:38Z"
+    generation: 1
+    name: app-allow-dns
+    namespace: resilience
+    resourceVersion: "6894"
+    uid: 5a5e7a7b-7a65-4dad-aa39-7d4123098cc1
+  spec:
+    egress:
+    - ports:
+      - port: 53
+        protocol: UDP
+      - port: 53
+        protocol: TCP
+      to:
+      - namespaceSelector:
+          matchLabels:
+            kubernetes.io/metadata.name: kube-system
+        podSelector:
+          matchLabels:
+            k8s-app: kube-dns
+    podSelector:
+      matchLabels:
+        tier: app
+    policyTypes:
+    - Egress
+- apiVersion: networking.k8s.io/v1
+  kind: NetworkPolicy
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"networking.k8s.io/v1","kind":"NetworkPolicy","metadata":{"annotations":{},"name":"app-allow-from-ingress-nginx","namespace":"resilience"},"spec":{"ingress":[{"from":[{"namespaceSelector":{"matchLabels":{"kubernetes.io/metadata.name":"ingress-nginx"}},"podSelector":{"matchLabels":{"app.kubernetes.io/component":"controller"}}}],"ports":[{"port":8000,"protocol":"TCP"}]}],"podSelector":{"matchLabels":{"tier":"app"}},"policyTypes":["Ingress"]}}
+    creationTimestamp: "2026-01-20T17:47:38Z"
+    generation: 1
+    name: app-allow-from-ingress-nginx
+    namespace: resilience
+    resourceVersion: "6895"
+    uid: 8e7d619c-e512-425d-ab90-3e6adebb0c9f
+  spec:
+    ingress:
+    - from:
+      - namespaceSelector:
+          matchLabels:
+            kubernetes.io/metadata.name: ingress-nginx
+        podSelector:
+          matchLabels:
+            app.kubernetes.io/component: controller
+      ports:
+      - port: 8000
+        protocol: TCP
+    podSelector:
+      matchLabels:
+        tier: app
+    policyTypes:
+    - Ingress
+- apiVersion: networking.k8s.io/v1
+  kind: NetworkPolicy
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"networking.k8s.io/v1","kind":"NetworkPolicy","metadata":{"annotations":{},"name":"app-default-deny","namespace":"resilience"},"spec":{"podSelector":{"matchLabels":{"tier":"app"}},"policyTypes":["Ingress","Egress"]}}
+    creationTimestamp: "2026-01-20T17:47:38Z"
+    generation: 1
+    name: app-default-deny
+    namespace: resilience
+    resourceVersion: "6893"
+    uid: d36eeaa4-f663-4969-bc25-7f7d0b91f232
+  spec:
+    podSelector:
+      matchLabels:
+        tier: app
+    policyTypes:
+    - Ingress
+    - Egress
+kind: List
+metadata:
+  resourceVersion: ""

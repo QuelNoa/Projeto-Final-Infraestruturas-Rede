@@ -1,0 +1,114 @@
+# 1. INGRESS PARA O ENDPOINT PESADO (COM RATE LIMIT)
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: resilience-ingress-work
+  namespace: resilience
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    # Rate Limit por IP: 10 pedidos por segundo
+    nginx.ingress.kubernetes.io/limit-rps: "10"
+    nginx.ingress.kubernetes.io/limit-burst-multiplier: "2"
+    # Forçar o código 429 para ambos os limites (RPS e Conexões)
+    nginx.ingress.kubernetes.io/limit-req-status-code: "429"
+    nginx.ingress.kubernetes.io/limit-conn-status-code: "429"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts: [api.resilience.local]
+      secretName: resilience-ingress-tls-secret
+  rules:
+    - host: api.resilience.local
+      http:
+        paths:
+          - path: /work
+            pathType: Prefix
+            backend:
+              service:
+                name: api
+                port:
+                  number: 80
+
+---
+
+# 2. INGRESS PARA ENDPOINTS CRÍTICOS (SEM LIMITES AGRESSIVOS)
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: resilience-ingress-api-core
+  namespace: resilience
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/limit-rps: "100"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/enable-modsecurity: "true"
+    nginx.ingress.kubernetes.io/enable-owasp-core-rules: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts: [api.resilience.local]
+      secretName: resilience-ingress-tls-secret
+  rules:
+    - host: api.resilience.local
+      http:
+        paths:
+          - path: /ping
+            pathType: Exact
+            backend:
+              service:
+                name: api
+                port:
+                  number: 80
+          - path: /secure-data
+            pathType: Exact
+            backend:
+              service:
+                name: api
+                port:
+                  number: 80
+          - path: /health
+            pathType: Exact
+            backend:
+              service:
+                name: api
+                port:
+                  number: 80
+
+---
+
+# 3. INGRESS PARA AUTH E DASHBOARD
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: resilience-ingress-others
+  namespace: resilience
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts: [auth.resilience.local, dash.resilience.local]
+      secretName: resilience-ingress-tls-secret
+  rules:
+    - host: auth.resilience.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: auth
+                port:
+                  number: 8000
+    - host: dash.resilience.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: dashboard
+                port:
+                  number: 80

@@ -1,0 +1,20 @@
+=== SUMMARY: results/demo_20260121_061227 ===
+
+k6: dos/k6_summary.json
+ - http_reqs: 10635
+ - p95(ms): 387.16266369999994
+ - max(ms): 1798.436315
+
+- recuperação estável: 3 OK consecutivos
+- janela pós-incidente: 30s
+- RPO: 0 (stateless/NA)
+
+Métricas por incidente (por endpoint):
+ - dos:
+    • /ping: MTTD=-s  MTTR=-s  RTO=-s
+ - dos:
+    • /secure-data: MTTD=-s  MTTR=-s  RTO=-s
+ - netfail:
+    • /ping: MTTD=-s  MTTR=-s  RTO=-s
+ - netfail:
+    • /secure-data: MTTD=2.0s  MTTR=19.0s  RTO=21.0s

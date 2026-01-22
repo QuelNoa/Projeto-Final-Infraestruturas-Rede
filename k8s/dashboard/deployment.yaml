@@ -1,0 +1,85 @@
+# k8s/dashboard/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dashboard
+  namespace: resilience
+  labels:
+    app: dashboard
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: dashboard
+  template:
+    metadata:
+      labels:
+        app: dashboard
+        tier: app
+    spec:
+      # SecurityContext ao nível do POD
+      securityContext:
+        runAsUser: 1000
+        runAsGroup: 1000
+        fsGroup: 1000
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: dashboard
+          image: rsl/dashboard:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            # ✅ FIX: o teu Dockerfile expõe 8000, e o CMD usa --port 8000
+            - containerPort: 8000
+
+          env:
+            - name: API_URL
+              value: "https://api.resilience.svc.cluster.local:8000"
+            - name: AUTH_CA_FILE
+              value: "/etc/resilience-ca/ca.crt"
+
+          # SecurityContext ao nível do CONTENTOR
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop:
+                - ALL
+
+          volumeMounts:
+            - name: tmp
+              mountPath: /tmp
+            - name: ca
+              mountPath: /etc/resilience-ca
+              readOnly: true
+
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 1
+            failureThreshold: 3
+
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            initialDelaySeconds: 20
+            periodSeconds: 15
+            timeoutSeconds: 1
+            failureThreshold: 3
+
+      volumes:
+        - name: tmp
+          emptyDir: {}
+        - name: ca
+          secret:
+            secretName: resilience-root-ca-secret
+            items:
+              - key: ca.crt
+                path: ca.crt

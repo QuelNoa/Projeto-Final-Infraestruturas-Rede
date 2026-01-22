@@ -1,0 +1,49 @@
+LAST SEEN   TYPE      REASON              OBJECT                            MESSAGE
+78s         Normal    Scheduled           pod/api-66c8cd86fc-wlwcm          Successfully assigned resilience/api-66c8cd86fc-wlwcm to k3d-resilient-agent-0
+94s         Normal    Scheduled           pod/api-66c8cd86fc-jdbqn          Successfully assigned resilience/api-66c8cd86fc-jdbqn to k3d-resilient-agent-0
+36s         Normal    Scheduled           pod/api-66c8cd86fc-p2lxs          Successfully assigned resilience/api-66c8cd86fc-p2lxs to k3d-resilient-agent-1
+78s         Normal    Scheduled           pod/api-66c8cd86fc-2jjn5          Successfully assigned resilience/api-66c8cd86fc-2jjn5 to k3d-resilient-agent-1
+78s         Normal    Scheduled           pod/api-66c8cd86fc-rfqpd          Successfully assigned resilience/api-66c8cd86fc-rfqpd to k3d-resilient-agent-1
+63s         Normal    Scheduled           pod/api-66c8cd86fc-86pxh          Successfully assigned resilience/api-66c8cd86fc-86pxh to k3d-resilient-agent-2
+63s         Normal    Scheduled           pod/api-66c8cd86fc-rcm5b          Successfully assigned resilience/api-66c8cd86fc-rcm5b to k3d-resilient-agent-0
+78s         Normal    Scheduled           pod/api-66c8cd86fc-qsqqm          Successfully assigned resilience/api-66c8cd86fc-qsqqm to k3d-resilient-agent-2
+95s         Normal    Pulled              pod/api-66c8cd86fc-jdbqn          Container image "rsl/api:latest" already present on machine
+95s         Normal    ScalingReplicaSet   deployment/api                    Scaled up replica set api-66c8cd86fc to 4 from 3
+95s         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-jdbqn
+95s         Normal    SuccessfulRescale   horizontalpodautoscaler/api-hpa   New size: 4; reason: cpu resource utilization (percentage of request) above target
+94s         Normal    Started             pod/api-66c8cd86fc-jdbqn          Started container api
+94s         Normal    Created             pod/api-66c8cd86fc-jdbqn          Created container api
+79s         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-wlwcm
+79s         Normal    SuccessfulRescale   horizontalpodautoscaler/api-hpa   New size: 8; reason: cpu resource utilization (percentage of request) above target
+79s         Normal    ScalingReplicaSet   deployment/api                    Scaled up replica set api-66c8cd86fc to 8 from 4
+79s         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-2jjn5
+79s         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-rfqpd
+79s         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-qsqqm
+78s         Normal    Created             pod/api-66c8cd86fc-qsqqm          Created container api
+78s         Normal    Started             pod/api-66c8cd86fc-qsqqm          Started container api
+78s         Normal    Created             pod/api-66c8cd86fc-2jjn5          Created container api
+78s         Normal    Started             pod/api-66c8cd86fc-wlwcm          Started container api
+78s         Normal    Pulled              pod/api-66c8cd86fc-qsqqm          Container image "rsl/api:latest" already present on machine
+78s         Normal    Started             pod/api-66c8cd86fc-2jjn5          Started container api
+78s         Normal    Pulled              pod/api-66c8cd86fc-rfqpd          Container image "rsl/api:latest" already present on machine
+78s         Normal    Created             pod/api-66c8cd86fc-rfqpd          Created container api
+78s         Normal    Started             pod/api-66c8cd86fc-rfqpd          Started container api
+78s         Normal    Pulled              pod/api-66c8cd86fc-2jjn5          Container image "rsl/api:latest" already present on machine
+78s         Normal    Pulled              pod/api-66c8cd86fc-wlwcm          Container image "rsl/api:latest" already present on machine
+78s         Normal    Created             pod/api-66c8cd86fc-wlwcm          Created container api
+69s         Warning   Unhealthy           pod/api-66c8cd86fc-rz55t          Readiness probe failed: Get "http://10.42.3.26:8000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+64s         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-rcm5b
+64s         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-86pxh
+64s         Normal    ScalingReplicaSet   deployment/api                    Scaled up replica set api-66c8cd86fc to 10 from 8
+64s         Normal    SuccessfulRescale   horizontalpodautoscaler/api-hpa   New size: 10; reason: cpu resource utilization (percentage of request) above target
+63s         Normal    Started             pod/api-66c8cd86fc-rcm5b          Started container api
+63s         Normal    Created             pod/api-66c8cd86fc-rcm5b          Created container api
+63s         Normal    Created             pod/api-66c8cd86fc-86pxh          Created container api
+63s         Normal    Pulled              pod/api-66c8cd86fc-rcm5b          Container image "rsl/api:latest" already present on machine
+63s         Normal    Started             pod/api-66c8cd86fc-86pxh          Started container api
+63s         Normal    Pulled              pod/api-66c8cd86fc-86pxh          Container image "rsl/api:latest" already present on machine
+36s         Normal    Created             pod/api-66c8cd86fc-p2lxs          Created container api
+36s         Normal    Killing             pod/api-66c8cd86fc-2jjn5          Stopping container api
+36s         Normal    SuccessfulCreate    replicaset/api-66c8cd86fc         Created pod: api-66c8cd86fc-p2lxs
+36s         Normal    Pulled              pod/api-66c8cd86fc-p2lxs          Container image "rsl/api:latest" already present on machine
+36s         Normal    Started             pod/api-66c8cd86fc-p2lxs          Started container api

@@ -1,0 +1,67 @@
+{
+  "run_dir": "/home/ariana/projetos/resilient-microservices/results/demo_20260121_074144",
+  "rpo": "0 (stateless/NA)",
+  "stable_n": 3,
+  "post_window_s": 30,
+  "baseline": {
+    "first_failure_at": null,
+    "note": "Baseline FIRST_FAILURE só é considerado se ocorrer antes do 1º INCIDENT_START."
+  },
+  "incidents": {
+    "dos": {
+      "/ping": {
+        "t_incident_start": "2026-01-21T07:41:47+00:00",
+        "t_incident_end": "2026-01-21T07:43:09+00:00",
+        "window_end": "2026-01-21T07:43:39+00:00",
+        "t_first_failure": null,
+        "t_recovered_stable": null,
+        "mttd_s": null,
+        "mttr_s": null,
+        "rto_s": null,
+        "note": "Sem falha detetada na janela do incidente."
+      },
+      "/secure-data": {
+        "t_incident_start": "2026-01-21T07:41:47+00:00",
+        "t_incident_end": "2026-01-21T07:43:09+00:00",
+        "window_end": "2026-01-21T07:43:39+00:00",
+        "t_first_failure": "2026-01-21T07:43:35+00:00",
+        "t_recovered_stable": null,
+        "mttd_s": 108.0,
+        "mttr_s": null,
+        "rto_s": null,
+        "note": "Falha detetada, mas sem recuperação estável na janela."
+      }
+    },
+    "netfail": {
+      "/ping": {
+        "t_incident_start": "2026-01-21T07:43:32+00:00",
+        "t_incident_end": "2026-01-21T07:43:54+00:00",
+        "window_end": "2026-01-21T07:44:24+00:00",
+        "t_first_failure": null,
+        "t_recovered_stable": null,
+        "mttd_s": null,
+        "mttr_s": null,
+        "rto_s": null,
+        "note": "Sem falha detetada na janela do incidente."
+      },
+      "/secure-data": {
+        "t_incident_start": "2026-01-21T07:43:32+00:00",
+        "t_incident_end": "2026-01-21T07:43:54+00:00",
+        "window_end": "2026-01-21T07:44:24+00:00",
+        "t_first_failure": "2026-01-21T07:43:35+00:00",
+        "t_recovered_stable": "2026-01-21T07:43:55+00:00",
+        "mttd_s": 3.0,
+        "mttr_s": 20.0,
+        "rto_s": 23.0,
+        "note": null
+      }
+    }
+  },
+  "overlaps": [],
+  "k6": {
+    "http_reqs": 8994.0,
+    "http_req_duration_p95_ms": 542.48588635,
+    "http_req_duration_max_ms": 2369.695102,
+    "source": "/home/ariana/projetos/resilient-microservices/results/demo_20260121_074144/dos/k6_summary.json"
+  }
+}
