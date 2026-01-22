@@ -8,8 +8,8 @@ set -euo pipefail
 #   - curl
 #
 # Nota:
-#   - Se usas cert self-signed no Ingress, usa CURL_INSECURE=1
-#   - Se tens CA, podes passar CURL_CA=/path/ca.crt
+#   - Se usar cert self-signed no Ingress, usa CURL_INSECURE=1
+#   - Se CA, podes passar CURL_CA=/path/ca.crt
 
 BASE_URL="${1:?BASE_URL (ex: https://api.resilience.local)}"
 INTERVAL_SEC="${2:-1}"
@@ -60,7 +60,7 @@ measure() {
   echo "$ts,$endpoint,$code,$lat_ms,$ok" >> "$CSV"
 
   # lógica de incidente: consideramos falha se /ping falhar OU /secure-data falhar
-  # (vais chamar measure para os dois)
+  # (vai chamar measure para os dois)
   echo "$ok"
 }
 

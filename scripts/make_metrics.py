@@ -169,7 +169,7 @@ def main():
     # escreve metrics.json
     (run_dir / "metrics.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
 
-    # escreve metrics.md (para colar no relatório)
+    # escreve metrics.md 
     def fmt(x):
         return "n/a" if x is None else f"{x:.1f}s"
 
